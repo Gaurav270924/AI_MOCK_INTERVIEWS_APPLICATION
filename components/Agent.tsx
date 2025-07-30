@@ -140,6 +140,9 @@ const Agent = ({
     }
   };
 
+ 
+  
+
   const handleDisconnect = () => {
     setCallStatus(CallStatus.FINISHED);
     vapi.stop();
